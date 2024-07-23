@@ -1,0 +1,19 @@
+
+Q: Native library not available at /Users/miniforge3/envs/py38/lib/python3.8/site-packages/py_mini_racer/libmini_racer.dylib
+A: 异常处理_MacM1 python-akshare导入报错
+Sanfor
+已于 2022-07-21 17:31:25 修改
+
+点赞数 4
+文章标签： python macos 开发语言
+版权
+MacM1 python-akshare导入报错
+RuntimeError: Native library not available at /Users/miniforge3/envs/py38/lib/python3.8/site-packages/py_mini_racer/libmini_racer.dylib
+1
+就是少了文件，https://github.com/studyhub-co/PyMiniRacer，
+
+下载放进去(…python3.8/site-packages/py_mini_racer/) https://github.com/sqreen/PyMiniRacer/files/7575004/libmini_racer.dylib.zip
+
+原文链接：https://blog.csdn.net/weixin_42452716/article/details/125917343
+
+————————————————————————————————————————————————————————————————————————————————
